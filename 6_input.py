@@ -1,0 +1,5 @@
+#BMI=体重/(身高**2)
+weight=input("请输入你的体重(单位:kg):")
+height=input("请输入你的身高(单位:m):")
+BMI=float(weight)/(float(height)**2)
+print("您的BMI为"+str(BMI))
